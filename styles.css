@@ -1,0 +1,38 @@
+/* Resetting default styles */
+body {
+    margin: 0px;
+  }
+  
+  a {
+    color: inherit;
+  }
+  
+  /* Styling for the navbar */
+  .main-navbar {
+    /* Layout Styles */
+    display: flex;
+    justify-content: sapace-between;
+  
+    /* Colors */
+    background-color: rgb(90, 0, 50);
+    color: orange;
+  }
+  
+  /* Styling for the main section */
+  .main-content {
+  }
+  
+  /* Styling for our footer section */
+  .main-footer {
+  }
+  
+  /* Small pieces of reusable css classes */
+  .border-black {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+  }
+  
+  .text-white {
+    color: rgb(253, 253, 253);
+  }
